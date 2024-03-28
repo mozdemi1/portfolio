@@ -25,7 +25,9 @@ body {
 
 .topmenu:hover {
   color: white;
-  /* Add the styles here */
+  text-decoration: underline; /* Underline effect on hover */
+  font-size: 23px;
+
 }
 
 .topdiv {
@@ -110,6 +112,23 @@ h2 {
   vertical-align: middle;
   margin: 5px;
 }
+
+.container {
+  position: relative;
+}
+
+.sticker {
+  position: absolute;
+  margin-top: 50px; /* Adjust this value to move the sticker up or down */
+  right: 23px; /* Adjust this value to move the sticker left or right */
+  width: 50px; /* Adjust the width of the sticker as needed */
+  height: auto; /* Automatically adjust the height while maintaining aspect ratio */
+}
+
+.text {
+  margin-right: 60px; /* Adjust this value to create space for the sticker */
+}
+
 
 /* Skills */
 
@@ -213,7 +232,7 @@ h2 {
 }
 
 .recommendation span {
-  color: #7600bc;
+  color: #00bca9;
   font-size: 20px;
   font-family: 'Times New Roman', Times, serif;
 }
@@ -224,7 +243,7 @@ h2 {
   width: 48px;
   height: 48px;
   border-radius: 100%;
-  background-color: #7600bc;
+  background-color: #00bca9;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -238,7 +257,7 @@ h2 {
 
 .popup {
   width:400px;
-  background-color: #e8bcf0;
+  background-color: #00bca9;
   border-radius: 3mm;
   top: 50%;
   left:50%;
@@ -255,8 +274,8 @@ h2 {
 
 .popup button {
   background-color: #fff;
-  border: 1px solid #7600bc;
-  color: #7600bc;
+  border: 1px solid #00bca9;
+  color: #00bca9;
   display: block;
   border-radius: 6px;
   text-align: center;
@@ -269,8 +288,8 @@ h2 {
 
 .popup button:hover {
   background-color: #fff;
-  border: 2px solid #7600bc;
-  color: #7600bc;
+  border: 2px solid #00bca9;
+  color: #00bca9;
   display: block;
   font-weight: bolder;
   text-align: center;
@@ -301,8 +320,8 @@ fieldset {
 
 button {
   background-color: #fff;
-  border: 1px solid #7600bc;
-  color: #7600bc;
+  border: 1px solid #00bca9;
+  color: #00bca9;
   display: block;
   border-radius: 6px;
   text-align: center;
@@ -313,8 +332,8 @@ button {
 }
 
 button:hover {
-  background-color: #7600bc;
-  border: 1px solid #7600bc;
+  background-color: #00bca9;
+  border: 1px solid #00bca9;
   color: #fff;
   display: block;
   border-radius: 6px;
